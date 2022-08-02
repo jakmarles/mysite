@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy me a coffe</title>
+
+    <style type=text/css>
+        /* top nav style */
+        body {
+            height: 125vh;
+            margin-top: 80px;
+            padding: 30px;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+
+        header {
+            background-color: orange;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 5px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+        }
+
+        header * {
+            display: inline;
+        }
+
+        header li {
+            margin: 20px;
+        }
+
+        header li a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* footer  */
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(0, 255, 85);
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+
+
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <span title="Main menu"> <a href="index.html"> Home</a></span>
+                </li>
+                <li>
+                    <span title="Information"> <a href="about_us.html"> About us </a> </span>
+                </li>
+                <li>
+                    <span title="Send us a mail, reply will be within 24 hours"> <a href="ticket.html"> Submit a ticket
+                        </a> </span>
+                </li>
+                <li> <span title="Basic rules"> <a href="tos.html"> Terms of use </a> </span>
+                </li>
+                <li>
+                    <span title="Buy me a coffe"> <a href="donate.html"> Donate </a> </span>
+                </li>
+                <li>
+                    <span title="Whats new?"> <a href="news.html"> News </a> </span>
+                </li>
+                <li>
+                    <span title="Carlos quotes"> <a href="quotes.html"> Qoutes </a> </span>
+                </li>
+
+        </nav>
+    </header>
+
+    <!-- Donate button -->
+    <img src="https://thumbs.dreamstime.com/b/please-donate-red-rubber-stamp-over-white-background-86670203.jpg"
+        alt="plz donate">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <!-- Identify your business so that you can collect the payments. -->
+        <input type="hidden" name="business" value="jjteam1955@gmail.com">
+        <!-- Specify details about the contribution -->
+        <input type="hidden" name="no_recurring" value="10">
+        <input type="hidden" name="item_name" value="Buy Ilya Bronfman a coffe">
+        <input type="hidden" name="item_number" value="Coffe">
+        <input type="hidden" name="currency_code" value="USD">
+        <!-- Display the payment button. -->
+        <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+            alt="Donate">
+        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+    </form>
+
+
+ 
+
+    <!-- footer -->
+    <div class="footer">
+        <br>
+        <nav>
+
+            <li>
+                <span title="Main menu"> <a href="index.html"> Home</a></span>
+            </li>
+            <li>
+                <span title="Information"> <a href="about_us.html"> About us </a> </span>
+            </li>
+            <li>
+                <span title="Send us a mail, reply will be within 24 hours"> <a href="ticket.html"> Submit a ticket
+                    </a> </span>
+            </li>
+            <li> <span title="Basic rules"> <a href="tos.html"> Terms of use </a> </span>
+            </li>
+            <li>
+                <span title="Buy me a coffe"> <a href="donate.html"> Donate </a> </span>
+            </li>
+            <li>
+                <span title="Whats new?"> <a href="news.html"> News </a> </span>
+            </li>
+            <li>
+                <span title="Carlos quotes"> <a href="quotes.html"> Qoutes </a> </span>
+            </li>
+
+        </nav>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
